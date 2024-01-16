@@ -27,10 +27,10 @@ jobs:
       - name: Build Project
         run: npm run build
         env:
-          REACT_APP_WELCOME_TEXT: ss aswal
+          REACT_APP_TEXT: ss aswal
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
-          branch: gh-pages
+          branch: ga-1
           folder: build
