@@ -2,6 +2,7 @@
   "name": "github-actions-poc",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://github.com/shankaraswal/github-actions-poc",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
